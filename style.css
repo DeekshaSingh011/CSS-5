@@ -1,0 +1,144 @@
+body{
+    background-image: url('shara_desert.jpg');
+    color:white;
+    background-size: cover;
+
+}
+.logo
+{
+    float: left;
+    margin-top: 15px;
+
+}
+.navbar
+{   
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.re
+{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.maincontain
+{
+    display: inline-flex;
+    margin-top:25px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+a{
+    color:white;
+    text-decoration: none;;
+}
+.sahara
+{
+    border: 1px solid transparent;
+    height:300px;
+    width: 50%;
+    
+}
+.explore
+{
+    background-color: white;
+    color:black;
+    border:1px solid white;
+    border-radius: 20px;
+    height:40px;
+    width: 150px;
+    align-items: center;
+}
+.contain2
+{
+    width: 50%;
+    border:1px solid transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+.box1
+{
+    background-image:url('pic-1.png');
+    background-size: cover;
+
+}
+.box2
+{
+    background-image:url('pic-2.png');
+    background-size: cover;
+
+}
+.box3
+{
+    background-image:url('pic-3.png');
+    background-size: cover;
+
+}
+.box4
+{
+    background-image:url('pic-4.png');
+    background-size: cover;
+}
+.box
+{
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 250px;
+    height:200px;
+
+}
+.box:hover
+{
+    transform: translateY(-10px);
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+@media only screen and (min-width: 500px) and (max-width:800) 
+{
+    .body{
+        background-size: cover;
+
+    }
+    .navbar
+    {   
+       
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+    .maincontain
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+
+    }
+    .contain2
+    {
+        width:90%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .box
+    {
+        width: 400px;
+    height:400px;
+
+}
+    .sahara
+    {
+        border: 1px solid transparent;
+        width: 90%;        
+    }
+}
