@@ -35,9 +35,7 @@ a{
     border: 1px solid transparent;
     height:300px;
     width:45%;
-    margin-top: 4%;
-    margin-right: 4%;
-
+    margin-left: 4%;
 }
 .explore
 {
@@ -49,6 +47,11 @@ a{
     width: 150px;
     align-items: center;
 }
+.main
+{
+    display:flex;
+    flex-direction: row;
+}
 .contain2
 {
     border:1px solid transparent;
@@ -57,27 +60,22 @@ a{
     justify-content: space-evenly;
     flex-wrap: wrap;
     column-gap: 1%;
-    width:45%;
-    margin-left:50%;
-    margin-top: -20%;
+
 }
 .box1
 {
     background-image:url('pic-1.png');
     background-size: cover;
-
 }
 .box2
 {
     background-image:url('pic-2.png');
     background-size: cover;
-
 }
 .box3
 {
     background-image:url('pic-3.png');
     background-size: cover;
-
 }
 .box4
 {
@@ -90,7 +88,6 @@ a{
     border-radius: 10px;
     width: 280px;
     height:210px;
-
 }
 .box:hover
 {
@@ -108,19 +105,20 @@ a{
     {   
         display:flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
     .contain2
     {
-        width:100%;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        row-gap: 10px;
         margin-left:1%;
-        margin-top:160px;
-
+    }
+    .main
+    {
+        flex-direction: column;
+        justify-content: space-evenly;
     }
     .box
     {
@@ -129,10 +127,8 @@ a{
     }
     .sahara
     {
-        border: 1px solid transparent;  
+        border: 1px solid transparent;
         column-gap: 1%;
-        width: 78%;
-        margin-left: 10%;
-        margin-top: 4%;   
+        width:1000px; 
     }
 }
