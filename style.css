@@ -99,8 +99,13 @@ a{
 {
     .body{
         background-size: cover;
-
     }
+    .logo
+{
+    float: left;
+    margin-top: 1px;
+
+}
     .navbar
     {   
         display:flex;
