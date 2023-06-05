@@ -7,8 +7,7 @@ body{
 .logo
 {
     float: left;
-    margin-top: 15px;
-
+    margin-left:1px;
 }
 .navbar
 {   
@@ -17,7 +16,7 @@ body{
     justify-content: flex-end;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-right: 10px;
+    margin-right: 1px;
     margin-left: 10px;
 }
 
