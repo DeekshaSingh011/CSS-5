@@ -110,7 +110,7 @@ a{
     {   
         display:flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: flex-end;
     }
 
     .contain2
