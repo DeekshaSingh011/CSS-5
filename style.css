@@ -7,7 +7,7 @@ body{
 .logo
 {
     float: left;
-    margin-top: 15px;
+    margin-top: 10px;
 
 }
 .navbar
@@ -15,6 +15,9 @@ body{
     display:flex;
     flex-direction: row;
     justify-content: flex-end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
 }
 
 .re
@@ -26,13 +29,7 @@ a{
     color:white;
     text-decoration: none;;
 }
-.sahara
-{
-    border: 1px solid transparent;
-    height:300px;
-    width:45%;
-    margin-left: 4%;
-}
+
 .explore
 {
     background-color: white;
@@ -45,8 +42,14 @@ a{
 }
 .main
 {
-    display:flex;
-    flex-direction: row;
+    display:grid;
+    grid-template-columns: auto auto;
+    margin-top: 20px;
+}
+.sahara
+{
+    border: 1px solid transparent;
+    margin-left: 4%;
 }
 .contain2
 {
@@ -55,8 +58,7 @@ a{
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    column-gap: 1%;
-
+    row-gap: 4px;
 }
 .box1
 {
@@ -96,40 +98,30 @@ a{
     .body{
         background-size: cover;
     }
-    .logo
-{
-    float: left;
-    margin-top: 1px;
-
-}
     .navbar
     {   
         display:flex;
         flex-direction: column;
         justify-content: flex-end;
     }
-
-    .contain2
-    {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        margin-left:1%;
-    }
-    .main
-    {
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
     .box
     {
-        width: 700px;
-        height:500px;
+        width: 250px;
+        height:190px;
     }
     .sahara
     {
-        border: 1px solid transparent;
-        column-gap: 1%;
-        width:1000px; 
+        grid-column-start:1;
+        grid-column-end: 3;
+    }
+    .main
+    {
+        grid-template-columns: 500px 600px;
+    }
+    .contain2
+    {   
+        flex-direction: column;
+        justify-content: space-evenly;
+        row-gap: 5px;
     }
 }
